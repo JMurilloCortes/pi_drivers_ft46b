@@ -1,0 +1,122 @@
+.container {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../utils/fondo-home.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  color: rgb(0, 0, 0);
+}
+
+.forma {
+  background: #dda876;
+  border: solid 1px #ff7b00;
+  border-radius: 25px;
+  padding: 2rem;
+  max-width: 400px;
+  
+}
+
+.entrada{
+  text-align: right;
+}
+
+.entrada input {
+  width: 280px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 7px;
+  border: solid 1px #ff7b00;
+  background-color: rgb(255, 232, 198);
+}
+
+.entrada textarea {
+  width: 280px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 7px;
+  border: solid 1px #ff7b00;
+  background-color: rgb(255, 232, 198);
+}
+
+.entrada select {
+  width: 285px;
+  height: 35px;
+  margin: 10px;
+  border-radius: 7px;
+  border: solid 1px #ff7b00;
+  background-color: rgb(255, 232, 198);
+}
+
+.entrada ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.marcas {
+  border-radius: 7px;
+  border: solid 1px #ff7b00;
+  background-color: rgb(255, 236, 207);
+  margin: 3px;
+  padding: 4px;
+}
+
+.buttonsDivs {
+  background-color: rgb(255, 232, 198);
+  padding: 10px;
+  width: fit-content;
+  border: solid 1px rgb(214, 99, 23);
+  border-radius: 6px;
+  transition: 650ms;
+  cursor: pointer;
+  color: black;
+}
+
+.buttonsDivs:hover {
+  color: white;
+  background-color: rgb(224, 118, 18);
+  padding: 10px;
+  width: fit-content;
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 6px;
+  box-shadow: 1px 1px 6px 4px #ff7b00;
+  transition: 650ms;
+}
+
+.colorTittle {
+  color: rgb(255, 255, 255);
+}
+
+.removeButton {
+  border: none;
+  background: rgb(255, 171, 171);
+  cursor: pointer;
+  margin-left: 4px;
+  padding: 0;
+}
+
+.successMessage {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #0f6b12;
+  border-radius: 7px;
+}
+
+.centrar{
+  text-align: center;
+}
+
+.control{
+  display: flex;
+  align-items: center;  
+}

@@ -1,0 +1,75 @@
+.container {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../utils/fondo-home.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  color: rgb(0, 0, 0);
+}
+
+.forma {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background: #dda876;
+  border: solid 1px #ff7b00;
+  border-radius: 25px;
+  max-width: 950px;
+  max-height: 480px;
+  padding: 15px;
+}
+
+.forma img {
+  max-width: 400px;
+  max-height: 400px;
+  min-width: 400px;
+  min-height: 400px;
+  margin: 10px;
+  border-radius: 25px;
+  border: solid 1px #ff7b00;
+}
+
+.cajaTexto {
+  padding: 10px;
+  margin: 10px;
+}
+
+.cajaTexto p {
+  text-align: left;
+}
+
+.buttonsDivs {
+  background-color: rgb(255, 232, 198);
+  padding: 10px;
+  width: fit-content;
+  border: solid 1px rgb(214, 99, 23);
+  border-radius: 6px;
+  transition: 650ms;
+  cursor: pointer;
+  color: black;
+}
+
+.buttonsDivs:hover {
+  color: white;
+  background-color: rgb(224, 118, 18);
+  padding: 10px;
+  width: fit-content;
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 6px;
+  box-shadow: 1px 1px 6px 4px #ff7b00;
+  transition: 650ms;
+}
+
+.colorTittle {
+  color:rgb(255, 255, 255)
+}

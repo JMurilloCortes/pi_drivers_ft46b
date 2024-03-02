@@ -1,0 +1,33 @@
+.landingContainer {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../utils/fondo-home.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tittleLanding {
+  color: rgb(223, 193, 96);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0.4));
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 1rem;
+}
+
+.landingContainer img {
+  margin-top: 60px;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  width: 250px;
+  filter: drop-shadow(5px 10px 20px rgb(255, 255, 255));
+}
+
+.landingContainer img:hover {
+  transform: scale(1.14);
+  filter: drop-shadow(5px 10px 20px rgb(214, 160, 11));
+  transition: 800ms;
+}
